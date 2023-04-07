@@ -1,0 +1,132 @@
+
+p{
+    font-family: "Playfair Display";
+}
+.c-item{
+    height: 480px;
+  
+
+}
+.c-img{
+    height: 100%;
+    object-fit:cover;
+    filter:brightness(0.6) ;
+
+}
+
+.underline{
+    height: 3px;
+    width: 100px;
+    background-color: black;
+}
+
+
+@media screen and (max-width:500px){
+    .imag{
+        filter:brightness(0.1) ;
+    }
+}
+
+.product img:hover::after{
+    content:'';
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color:rgb(0, 0,0,0.1);
+
+
+}
+a{
+    text-decoration: none;
+}
+
+body {
+    background-color:antiquewhite;
+    overflow-x: hidden;
+  }
+  
+  
+
+.card>img{
+    height: 59%;
+    width: 100%;
+}
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    display: none;
+}
+.product{
+  display: flex;
+  flex-wrap: wrap;
+}
+.product .itembox{
+ position: relative;
+ width: 300px;
+ height: 300px;
+ margin: 5px;
+
+}
+.product .itembox img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+section ul{
+  display: flex;
+  margin-bottom: 10px;
+  margin-top: 20px;
+  padding: 20px;
+  width: 1280px;
+  margin: 40px auto;
+}
+section ul li{
+  list-style: none;
+  padding: 8px 20px;
+  margin:5px ;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+section ul li.active{
+  background: #000;
+  color: #fff;
+}
+.amg1{
+  width: 100px;
+
+}
+
+.but{
+  width: 200px;
+  height: 50px;
+}
+
+.card:hover{
+  background-color: #000;
+  color: #fff;
+}
+
+
+.veh:hover + .hide {
+  display: block;
+  color: red;
+  
+}
+.bdtype{
+  margin-right: 820px;
+}
+
+
+
+
+
+
+
+
+
