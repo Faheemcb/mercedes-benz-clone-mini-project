@@ -118,15 +118,7 @@ section ul li.active{
   color: red;
   
 }
-.bdtype{
-  margin-right: 820px;
+
+.bodyType{
+  display: flex;
 }
-
-
-
-
-
-
-
-
-
