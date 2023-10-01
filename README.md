@@ -1,4 +1,9 @@
+
 # mercedes-benz-clone-mini-project
-# Technologies used :
-# HTML , CSS , BOOTSTRAP
-# This is not the exact Mercedes-Benz website , it's a similar kind of it.
+
+This responsive webiste is not the exact website of Mercedes Benz , but a similar website to it.
+
+## Tech Stack
+
+HTML , CSS , BOOTSTRAP
+
